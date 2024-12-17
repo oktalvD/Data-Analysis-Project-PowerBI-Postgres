@@ -38,7 +38,7 @@ Generated files:
 - loans.csv # Generated loan data (CSV)
 
 - SQL Schema
-- PowerBI files
+- PowerBI files - CapitalMetrics.pbix, PowerBi_report_CapitalMetrics.pdf
 
 Key Components:
 1. Data Simulation:
@@ -51,6 +51,7 @@ The project demonstrates the use of psycopg2 to interact with the database and p
 3. Power BI Dashboards:
 Power BI dashboards are created to visualize customer demographics, spending patterns, loan data, and transaction trends.
 The Power BI template provided includes dynamic visuals that can be filtered and analyzed in real-time.
+Created visuals are exported to the PowerBI_report_CapitalMetrics.pdf.
 
 Technologies Used:
 - Python (for data simulation and ETL operations)
