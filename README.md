@@ -25,23 +25,18 @@ Integrating with databases and performing ETL operations.
 Creating insightful data visualizations with Power BI.
 This project serves as a portfolio piece to demonstrate my ability to work with Python, databases (PostgreSQL), and Power BI.
 
-Project Structure:
-capital-metrics/
-│
-├── generate_customers.py        # Script for generating customer data
-├── generate_transactions.py     # Script for generating transaction data
-├── generate_loans.py            # Script for generating loan data
-├── save_to_postgres.py          # Script for inserting data into PostgreSQL
-│
-├── customers.csv                # Generated customer data (CSV)
-├── transactions.csv             # Generated transaction data (CSV)
-├── loans.csv                    # Generated loan data (CSV)
-│
-├── schema.sql                   # SQL schema for PostgreSQL tables
-├── PowerBI/
-│   ├── Capital_Metrics_Template.pbix  # Power BI template file
-│   
-└── README.md                    # This file
+Project Structure
+Python files:
+-generate_customers.py # Script for generating customer data
+-generate_transactions.py # Script for generating transaction data
+-generate_loans.py # Script for generating loan data
+-save_to_postgres.py # Script for inserting data into PostgreSQL
+Generated files:
+-customers.csv # Generated customer data (CSV)
+-transactions.csv # Generated transaction data (CSV)
+-loans.csv # Generated loan data (CSV)
+SQL Schema
+PowerBI files
 
 Key Components:
 1. Data Simulation:
