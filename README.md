@@ -6,8 +6,8 @@ This project demonstrates my skills in data simulation, ETL processes, and data 
 
 Key Features:
 
-Data Simulation: Generates large volume of fake customer profiles, including attributes such as income, age, role, and location.
-Transaction Generation: Creates realistic debit and credit transactions, including salary credits, bonus payments, and typical debit card spending.
+Data Simulation: Generates large volume of fake customer profiles, including attributes such as: customer id, name, age , gender, occupation, role, income, account types, account opening date, last active date, state and city.
+Transaction Generation: Creates realistic debit and credit transactions, including salary credits, bonus payments, and typical debit card spending with dates of each transaction.
 Loan Generation: Simulates various types of loans (e.g., personal, home, car, education, business) for customers.
 PostgreSQL Integration: Stores simulated data into a PostgreSQL database, demonstrating proficiency in handling large datasets.
 Power BI Visuals: Provides a set of interactive Power BI dashboards to analyze and visualize the data.
