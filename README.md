@@ -31,12 +31,14 @@ Python files:
 - generate_transactions.py # Script for generating transaction data
 - generate_loans.py # Script for generating loan data
 - save_to_postgres.py # Script for inserting data into PostgreSQL
+
 Generated files:
 - customers.csv # Generated customer data (CSV)
 - transactions.csv # Generated transaction data (CSV)
 - loans.csv # Generated loan data (CSV)
-SQL Schema
-PowerBI files
+
+- SQL Schema
+- PowerBI files
 
 Key Components:
 1. Data Simulation:
