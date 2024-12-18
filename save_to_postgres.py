@@ -3,11 +3,11 @@ import pandas as pd  # Import the pandas library for reading CSV files and handl
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(
-    dbname="capital_metrics",  # Name of the database we created in PostgreSQL
-    user="postgres",  # PostgreSQL username (replace with your actual username if different)
-    password="****",  # Password for your PostgreSQL user (replace with your actual password)
-    host="localhost",  # Host is localhost because PostgreSQL is running on your local machine
-    port="5433"  # Default PostgreSQL port
+    dbname="capital_metrics",  
+    user="postgres",  
+    password="****",  
+    host="localhost",  
+    port="5433"  
 )
 
 # Create a cursor object to interact with the database
